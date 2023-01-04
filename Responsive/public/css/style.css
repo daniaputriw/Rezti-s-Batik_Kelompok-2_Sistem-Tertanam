@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
 }
 
 .wave{
@@ -32,12 +31,12 @@ body{
 	align-items: center;
 }
 
-.login-content{
+.monitoring-container{
 	display: flex;
-	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
 }
+
 
 .img img{
 	width: 500px;
@@ -47,6 +46,60 @@ form{
 	width: 400px;
 }
 
+form h3{
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 15px 0;
+	color: black;
+	text-align: center;
+}
+
+.output-div{
+    display: grid;
+	grid-template-columns: 7% 93%;
+	margin: 25px 0;
+	padding: 5px 0;	 
+}
+
+.output-div.one{
+    margin-bottom: 4px; 
+}
+
+.output-div.two{
+    margin-top: 0; 
+}
+
+.i{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.i i{
+	color: black;
+}
+
+.output-div > div{
+	position: absolute;
+	height: 45px;
+}
+
+.output-div > div h5{
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: black;
+	font-size: 18px;
+	transition: .3s;
+}
+
+.login-content{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
 .login-content img{
     height: 100px;
 }
@@ -69,21 +122,6 @@ form{
 
 .login-content .input-div.one{
 	margin-top: 0;
-
-	h5{
-		position: relative;
-	}
-}
-
-.i{
-	color: #d9d9d9;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.i i{
-	transition: .3s;
 }
 
 .input-div > div{
@@ -166,15 +204,15 @@ a:hover{
 
 .btn{
 	display: block;
-	width: 100%;
+	width: 120%;
 	height: 50px;
-	border-radius: 25px;
+	border-radius: 50px;
 	outline: none;
 	border: none;
 	/* background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f); */
 	background-image: linear-gradient(to right, #100BF5, #3330f5, #514ef7);
 	background-size: 200%;
-	font-size: 1.2rem;
+	font-size: 10pt;
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
